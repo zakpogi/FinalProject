@@ -18,7 +18,8 @@ public class GradeCalculator {
 		int x = (219 - (prelimGrade + midtermGrade));
 
 		if(prelimGrade + midtermGrade + 65 >= 219){	//insert comment
-			System.out.print("Congratulations!!! Sure pass!");
+			// Congratulatory message if student has passed
+			System.out.print("Congratulations!!! Sure pass! You have prayed hard enough");
 			System.out.print("Your standing grade is "+ (prelimGrade + midtermGrade + 65)/3 + "\nKeep up the good work!");
 
 		}else{
