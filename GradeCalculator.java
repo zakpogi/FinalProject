@@ -8,7 +8,7 @@
 
 import java.util.*;
 public class GradeCalculator {
-	public static void main(String[]args){
+	public static void main(String[]args){	//insert comment here
 		Scanner kbd = new Scanner (System.in);
 		System.out.print("Enter Prelim Grade: ");
 		int prelimGrade = kbd.nextInt();
