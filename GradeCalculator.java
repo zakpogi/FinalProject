@@ -16,7 +16,7 @@ public class GradeCalculator {
 		int midtermGrade = kbd.nextInt();
 		int x = (219 - (prelimGrade + midtermGrade));
 
-		if(prelimGrade + midtermGrade + 65 >= 219){
+		if(prelimGrade + midtermGrade + 65 >= 219){	//insert comment
 			System.out.print("Congratulations!!! Sure pass!");
 			System.out.print("Your standing grade is "+ (prelimGrade + midtermGrade + 65)/3 + "\nKeep up the good work!");
 
